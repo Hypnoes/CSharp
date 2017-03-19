@@ -16,9 +16,13 @@ namespace 作业
             {
                 Console.WriteLine((i1 - 10) * i2);
             }
-            else
+            else if (i1 == 0 && i2 == 0)
             {
                 Console.WriteLine("ERROR.");
+            }
+            else
+            {
+                Console.WriteLine(Math.Abs(i1 * i2));
             }
             
         }
