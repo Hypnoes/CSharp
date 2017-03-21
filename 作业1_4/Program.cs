@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace 作业4
+namespace 作业1_4
 {
     class Program
     {

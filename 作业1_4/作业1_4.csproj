@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D8F9AC6F-B05F-4D22-AC2B-2896926E0237}</ProjectGuid>
+    <ProjectGuid>{4BA80E4E-8435-486A-92A3-D4B17F57FD78}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>作业</RootNamespace>
-    <AssemblyName>作业</AssemblyName>
+    <RootNamespace>作业1_4</RootNamespace>
+    <AssemblyName>作业1_4</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

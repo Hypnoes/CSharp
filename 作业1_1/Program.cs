@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace 作业
+namespace 作业1_1
 {
     class Program
     {

@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "作业", "作业\作业.csproj", "{D8F9AC6F-B05F-4D22-AC2B-2896926E0237}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "作业1_1", "作业1_1\作业1_1.csproj", "{D8F9AC6F-B05F-4D22-AC2B-2896926E0237}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "作业2", "作业2\作业2.csproj", "{AA8B0E49-111D-487C-8CF2-32F8B56391F2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "作业1_2", "作业1_2\作业1_2.csproj", "{AA8B0E49-111D-487C-8CF2-32F8B56391F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "作业3", "作业3\作业3.csproj", "{AEE748A3-2C51-4DAF-BBD6-4C9C0FBB9EB5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "作业1_3", "作业1_3\作业1_3.csproj", "{AEE748A3-2C51-4DAF-BBD6-4C9C0FBB9EB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "作业4", "作业4\作业4.csproj", "{4BA80E4E-8435-486A-92A3-D4B17F57FD78}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "作业1_4", "作业1_4\作业1_4.csproj", "{4BA80E4E-8435-486A-92A3-D4B17F57FD78}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
