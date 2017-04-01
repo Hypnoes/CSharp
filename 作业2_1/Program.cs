@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 namespace 作业2_1
 {
@@ -11,6 +12,7 @@ namespace 作业2_1
             Console.WriteLine("===================");
             p_c.hi();
             p_a.hi();
+            Thread.Sleep(5000);
         }
     }
 }

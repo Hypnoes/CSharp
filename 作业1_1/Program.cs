@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 namespace 作业1_1
 {
@@ -24,7 +25,7 @@ namespace 作业1_1
             {
                 Console.WriteLine(Math.Abs(i1 * i2));
             }
-            
+            Thread.Sleep(5000);
         }
     }
 }

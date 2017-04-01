@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "作业1_4", "作业1_4\作�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "作业2_1", "作业2_1\作业2_1.csproj", "{5C89A158-A912-4B3F-8EAD-5D0448E15E78}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "作业2_2", "作业2_2\作业2_2.csproj", "{A185F18E-C63F-45DA-A57F-37D7E735658D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{5C89A158-A912-4B3F-8EAD-5D0448E15E78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C89A158-A912-4B3F-8EAD-5D0448E15E78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C89A158-A912-4B3F-8EAD-5D0448E15E78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A185F18E-C63F-45DA-A57F-37D7E735658D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A185F18E-C63F-45DA-A57F-37D7E735658D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A185F18E-C63F-45DA-A57F-37D7E735658D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A185F18E-C63F-45DA-A57F-37D7E735658D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
