@@ -19,6 +19,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "作业3_1", "作业3_1\作�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "作业3_2", "作业3_2\作业3_2.csproj", "{E2A74883-2E65-4E68-9070-6B2746A79075}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "作业3_3", "作业3_3\作业3_3.csproj", "{A90B95C2-DADB-43FC-B108-D46096D96D69}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C934A5BD-CBE6-4A3B-BEED-9CDDBC7D267F}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +66,10 @@ Global
 		{E2A74883-2E65-4E68-9070-6B2746A79075}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2A74883-2E65-4E68-9070-6B2746A79075}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2A74883-2E65-4E68-9070-6B2746A79075}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A90B95C2-DADB-43FC-B108-D46096D96D69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A90B95C2-DADB-43FC-B108-D46096D96D69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A90B95C2-DADB-43FC-B108-D46096D96D69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A90B95C2-DADB-43FC-B108-D46096D96D69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
