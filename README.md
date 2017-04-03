@@ -1,7 +1,6 @@
 # CSharp
 ### C#作业
 >  __Author__ := "Hypnoes"
-<br />
 >  __Mode__ := *★,°*:.☆(￣▽￣)/$:*.°★* 。
 * * *
 * ##### 第一次作业
@@ -14,9 +13,9 @@
     1. 将一个字符串数组的元素的顺序进行反转。{"3","a","8","haha"}{"haha","8","a","3"}。第i个和第length-i-1个进行交换。
         * [<font color = "green">√</font>] ans => ./作业1_4
 * ##### 第二次作业
-    1. `Step1` 创建一个Person类库，以Person作为基类，创建子类Chinese和American，有同名的hi（）函数，分别输出中文的问好和英文的问好。<br /> `Step2` 在类Helloworld中引用Person类，创建Chinese和American对象，调用问好。
+    1. `Step1` 创建一个Person类库，以Person作为基类，创建子类Chinese和American，有同名的hi（）函数，分别输出中文的问好和英文的问好。 `Step2` 在类Helloworld中引用Person类，创建Chinese和American对象，调用问好。
         * [<font color = "green">√</font>] ans => ./作业2_1
-    1. `Step1` 设计汽车类Car，有特性（私有字段）：品牌、车型、颜色、门数，最大时速；构造函数有两个，一个构造函数参数仅品牌，另一个构造函数参数包括品牌、车型；属性有品牌、车型、颜色、门数、最大时速；有方法加速SpeedUp（）、SpeedUp（int i），减速SpeedDown（）、SpeedDown（int j）。<br /> `Step2` 在主函数main中通过两个构造函数创建两辆车实例；显示车的品牌、车型、颜色、门数、最大时速信息；各自调用加速减速方法。
+    1. `Step1` 设计汽车类Car，有特性（私有字段）：品牌、车型、颜色、门数，最大时速；构造函数有两个，一个构造函数参数仅品牌，另一个构造函数参数包括品牌、车型；属性有品牌、车型、颜色、门数、最大时速；有方法加速SpeedUp（）、SpeedUp（int i），减速SpeedDown（）、SpeedDown（int j）。 `Step2` 在主函数main中通过两个构造函数创建两辆车实例；显示车的品牌、车型、颜色、门数、最大时速信息；各自调用加速减速方法。
         * [<font color = "green">√</font>] ans => ./作业2_2
 * ##### 第三次作业
     1. 定义点类，从点类派生矩形类和园类，主程序实现用同一个方法显示矩形和园的面积。
