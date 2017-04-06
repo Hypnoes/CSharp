@@ -1,6 +1,7 @@
 ﻿using System;
 
 namespace ex32
+{
     interface ISharpArea
     {
         double area();
