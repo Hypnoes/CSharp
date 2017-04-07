@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Threading;
-using System.Linq;
 
 namespace ex14
 {
@@ -13,7 +12,7 @@ namespace ex14
             {
                 Console.WriteLine(s);
             }
-            a.Reverse();
+            Array.Reverse(a);
             foreach (string s in a)
             {
                 Console.WriteLine(s);

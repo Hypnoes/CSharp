@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading;
+using System.Text;
 
 namespace ex33
 {
@@ -7,6 +8,8 @@ namespace ex33
     {
         static void Main(string[] args)
         {
+            Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
+
             var r1 = new Reader(1234, "王华");
             var r2 = new Reader(2600, "李兵");
 
@@ -22,11 +25,10 @@ namespace ex33
 
         static void outPut(Reader r)
         {
-            Console.WriteLine("读者" + r.toString() + "所借的图书:");
-            foreach (var i in r.b)
+            Console.WriteLine("读者 " + r.toString() + "所借的图书:");
+            for (var i = 0; r.b[i] != null; i++)
             {
-                var d = 1;
-                Console.WriteLine("\t" + string.Format("{0}:", d) + i.toString());
+                Console.WriteLine("\t" + string.Format("{0}:", i + 1) + r.b[i].toString());
             }
         }
     }
