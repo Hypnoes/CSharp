@@ -2,12 +2,12 @@
 
 namespace ex32
 {
-    interface ISharpArea
+    abstract class Sharp
     {
-        double area();
+        public abstract double area();
     }
 
-    class Rectangle : ISharpArea
+    class Rectangle : Sharp
     {
         private double heigh;
         private double weight;
@@ -18,24 +18,24 @@ namespace ex32
             weight = w;
         }
 
-        public double area()
+        public override double area()
         {
             return heigh * weight;
         }
     }
 
-    class Circle : ISharpArea
+    class Circle : Sharp
     {
-        private double radium;
+        private double r;
 
-        public Circle(double r)
+        public Circle(double radium)
         {
-            radium = r;
+            r = radium;
         }
 
-        public double area()
+        public override double area()
         {
-            return Math.PI * radium * radium;
+            return Math.PI * r * r;
         }
     }
 }

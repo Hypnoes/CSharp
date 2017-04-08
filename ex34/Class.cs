@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ex33
+namespace ex34
 {
     class Book : BClass
     {

@@ -1,13 +1,13 @@
 ﻿using System;
 
-namespace ex31
+namespace ex33
 {
-    abstract class Sharp
+    interface ISharpArea
     {
-        public abstract double area();
+        double area();
     }
 
-    class Rectangle : Sharp
+    class Rectangle : ISharpArea
     {
         private double heigh;
         private double weight;
@@ -18,24 +18,24 @@ namespace ex31
             weight = w;
         }
 
-        public override double area()
+        public double area()
         {
             return heigh * weight;
         }
     }
 
-    class Circle : Sharp
+    class Circle : ISharpArea
     {
-        private double r;
+        private double radium;
 
-        public Circle(double radium)
+        public Circle(double r)
         {
-            r = radium;
+            radium = r;
         }
 
-        public override double area()
+        public double area()
         {
-            return Math.PI * r * r;
+            return Math.PI * radium * radium;
         }
     }
 }

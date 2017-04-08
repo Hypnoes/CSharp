@@ -4,7 +4,7 @@
 
 >  __Author__ := "Hypnoes"
 
->  __Mode__ := *★,°*:.☆(￣▽￣)/$:*.°★* 。
+>  __Mood__ := *★,°*:.☆(￣▽￣)/$:*.°★* 。
 
 * * *
 
@@ -30,12 +30,12 @@
     1. 定义点类，从点类派生矩形类和园类，主程序实现用同一个方法显示矩形和园的面积。
         * [<span style="color: red">×</span>] ans => ~~./ex3.1~~
     1. 重做 _1_ 题，将点类定义为抽象类。
-        * [<span style="color: green">√</span>] ans => ./ex3.1
-    1. 重做 _1_ 题，改为接口实现，即将点类改为接口。
         * [<span style="color: green">√</span>] ans => ./ex3.2
+    1. 重做 _1_ 题，改为接口实现，即将点类改为接口。
+        * [<span style="color: green">√</span>] ans => ./ex3.3
     1. 编写一个控制台应用程序项目，假设图书馆的图书类Book包含书名和编号和作者属性，读者类Reader包含姓名和借书证属性，每位读者最多可借5本书，设计它们的公共基类BClass。要求列出所有读者的借书情况，类似下图。
         ![作业3_3](http://23.105.194.199/res/zuoye3_3.jpg)
-        * [<span style="color: green">√</span>] ans => ./ex3.3
+        * [<span style="color: green">√</span>] ans => ./ex3.4
 
 * ##### 第四次作业
     1. 添加一个继承自List<T>的类ListEX<T>，假设T类型不提供对象比较的方法，为该类添加方法CountAll()，输入参数为T类型对象，该方法用于计算指定参数出现在ListEX<T>中的次数；假设T类型实现了接口IComparable，提供了Compare()方法，可以对两个T类型的对象进行大小的比较，修改CountAll()方法，先将泛型中的数据元素排序，再计算指定参数出现在ListEX<T>中的次数。
