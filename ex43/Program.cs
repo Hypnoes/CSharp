@@ -11,10 +11,8 @@ namespace ex43
             var l = new ListEx<int>() {1,2,2,3,3,3,4,4,4,4};
             print(l);
             Console.WriteLine();
-            var t1 = Test(l.sortCount);
-            var t2 = Test(l.countAll);
-            Console.WriteLine(t1);
-            Console.WriteLine(t2);
+            Console.WriteLine(Test(l.sortCount));
+            Console.WriteLine(Test(l.countAll));
             Thread.Sleep(5000);
         }
 
@@ -23,7 +21,7 @@ namespace ex43
             foreach(var i in l)
             {
                 Console.Write(i);
-                Console.Write(',');
+                Console.Write(' ');
             }
         }
 

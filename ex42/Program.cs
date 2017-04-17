@@ -10,9 +10,8 @@ namespace ex42
         {
             var l = new ListEx<int>() {1,2,2,3,3,3,4,4,4,4};
             print(l);
-            var ll = l.countAll();
             Console.WriteLine();
-            print(ll);
+            print(l.countAll());
             Thread.Sleep(5000);
         }
 
@@ -21,7 +20,7 @@ namespace ex42
             foreach(var i in l)
             {
                 Console.Write(i);
-                Console.Write(',');
+                Console.Write(' ');
             }
         }
     }
