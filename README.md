@@ -34,7 +34,7 @@
     1. 重做 _1_ 题，改为接口实现，即将点类改为接口。
         * [<span style="color: green">√</span>] ans => ./ex3.3
     1. 编写一个控制台应用程序项目，假设图书馆的图书类Book包含书名和编号和作者属性，读者类Reader包含姓名和借书证属性，每位读者最多可借5本书，设计它们的公共基类BClass。要求列出所有读者的借书情况，类似下图。
-        ![作业3_3](http://23.105.194.199/res/zuoye3_3.jpg)
+        ![作业3_3](https://camo.githubusercontent.com/a50a1dfd07ce6982e5ebf94a78b928018b808ac0/687474703a2f2f32332e3130352e3139342e3139392f7265732f7a756f7965335f332e6a7067)
         * [<span style="color: green">√</span>] ans => ./ex3.4
 
 * ##### 第四次作业
