@@ -1,22 +1,22 @@
-#CSharp 
+# CSharp 
 
-### CSharp ¸½¼Ó×÷Òµ
-
-»¹ÓÐ¸½¼Ó×÷Òµ£¬ÎÒÒ²²»ËµÉ¶ÁË¡£¡£¡£
+### CSharp é™„åŠ ä½œä¸š
 
 > __Author__: Hypnoes
+
+å±…ç„¶è¿˜æœ‰é™„åŠ ä½œä¸šã€‚ã€‚ã€‚ã€‚ã€‚ã€‚ã€‚ã€‚ã€‚ã€‚ã€‚ã€‚ã€‚ã€‚ã€‚
 
 ***
 
 1. ##### Exx1
-	1. ×öÒ»¸ö»ùÓÚtcp/ipµÄÍ¨ÐÅ³ÌÐò£¬ÊµÏÖtcp/udp¹¤×÷µÄtcp/udp·þÎñÆ÷ºÐ¿Í»§¶Ë¡£ÄÜ¹»´«ÎÄ¼þºÍ×Ö·û´®ÏûÏ¢¡£
-		* [<span style="color: green">¡Ì</span>] ans => ./exx1
-	1. Á¬½ÓÊý¾Ý¿â
-		* [<span style="color: red">¡Á</span>] ans => ~~./exx2~~
+	1. åšä¸€ä¸ªåŸºäºŽtcp/ipçš„é€šä¿¡ç¨‹åºï¼Œå®žçŽ°tcp/udpå·¥ä½œçš„tcp/udpæœåŠ¡å™¨ç›’å®¢æˆ·ç«¯ã€‚èƒ½å¤Ÿä¼ æ–‡ä»¶å’Œå­—ç¬¦ä¸²æ¶ˆæ¯ã€‚
+		* [<span style="color: green">âˆš</span>] ans => ./exx1
+	1. è¿žæŽ¥æ•°æ®åº“
+		* [<span style="color: red">Ã—</span>] ans => ~~./exx2~~
 
 ***
 
-### ±¸×¢
+### å¤‡æ³¨
 	* 
-		* Á¬½ÓÊý¾Ý¿âÕâ¸öÎÒÃ»¿´¶®ÌâÄ¿¡£¡£¡£ ( ¨s¡õ¨t )
+		* è¿žæŽ¥æ•°æ®åº“è¿™ä¸ªæˆ‘æ²¡çœ‹æ‡‚é¢˜ç›®ã€‚ã€‚ã€‚ ( â•¯â–¡â•° )
 
